@@ -1,1 +1,37 @@
+body {
+    background-color: #2a2a2a;
+}
 
+title {
+    color: red;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    color: white;
+}
+
+p {
+    text-align: center;
+    color: white;
+}
+
+.center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+}
+
+button {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background: #4c5fa4;
+}
