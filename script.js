@@ -9,7 +9,7 @@ sounds.forEach(sound => {
     btn.addEventListener('click', () => {
         stopSongs()
 
-        document.getElementById(sound).onplay()
+        document.getElementById(sound).play()
     })
 
     document.getElementById('buttons').appendChildapp(btn)
