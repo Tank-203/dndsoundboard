@@ -8,18 +8,9 @@ title {
 
 h1 {
     text-align: center;
-    color: white;
+    color: rgb(255, 0, 0);
 }
 
-h2 {
-    text-align: center;
-    color: white;
-}
-
-p {
-    text-align: center;
-    color: white;
-}
 
 .center {
       display: block;
@@ -28,10 +19,22 @@ p {
       width: 50%;
 }
 
-button {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+.btn {
+    background-color: crimson;
+    border-radius: 5px;
+    border: none;
     color: white;
-    background: #4c5fa4;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    cursor: pointer;
 }
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn:focus {
+    outline: none;
+}
+
