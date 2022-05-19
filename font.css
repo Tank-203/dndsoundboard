@@ -11,6 +11,10 @@ h1 {
     color: rgb(255, 0, 0);
 }
 
+h2 {
+    text-align: left;
+    color:rgb(255, 0, 0)
+}
 
 .center {
       display: block;

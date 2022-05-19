@@ -1,5 +1,5 @@
-const sounds = ['Vine-Boom', 'Mogar-Growl']
-const characterSounds = ['Walking', 'Burp']
+const sounds = ['Vine-Boom', 'Bruh', 'Taco']
+const characterSounds = ['Walking', 'Burp', 'Mogar-Growl']
 
 sounds.forEach(sound => {
     const btn = document.createElement('button')
