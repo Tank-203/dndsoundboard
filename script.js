@@ -1,6 +1,13 @@
 const sounds = ['Vine-Boom', 'Bruh', 'Taco']
 const characterSounds = ['Walking', 'Burp', 'Mogar-Growl']
+const monsterSounds = ['Mogar-Growl']
 
+const stopBtn = document.createElement('stopbtn')
+stopbtn.classList.add(stopBtn)
+
+stopbtn.addEventListener('click', () => {
+    stopSongs()
+})
 
 sounds.forEach(sound => {
     const btn = document.createElement('button')
@@ -31,6 +38,22 @@ characterSounds.forEach(sound => {
     })
 
     document.getElementById('characterButtons').appendChild(btn)
+    return
+})
+
+monsterSounds.forEach(sound => {
+    const btn = document.createElement('button')
+    btn.classList.add('btn')
+
+    btn.innerText = sound
+    
+    btn.addEventListener('click', () => {
+        stopSongs()
+
+        document.getElementById(sound).play()
+    })
+
+    document.getElementById('monsterButtons').appendChild(btn)
     return
 })
 
