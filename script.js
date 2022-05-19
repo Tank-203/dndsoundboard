@@ -1,7 +1,8 @@
 const sounds = ['Vine-Boom', 'Bruh', 'Taco']
 const characterSounds = ['Walking', 'Burp', 'Mogar-Growl']
 
-sounds.every(sound => {
+
+sounds.forEach(sound => {
     const btn = document.createElement('button')
     btn.classList.add('btn')
 
@@ -14,9 +15,10 @@ sounds.every(sound => {
     })
 
     document.getElementById('buttons').appendChild(btn)
+    return
 })
 
-characterSounds.every(sound => {
+characterSounds.forEach(sound => {
     const btn = document.createElement('button')
     btn.classList.add('btn')
 
@@ -29,6 +31,7 @@ characterSounds.every(sound => {
     })
 
     document.getElementById('characterButtons').appendChild(btn)
+    return
 })
 
 function stopSongs() {
