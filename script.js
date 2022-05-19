@@ -1,7 +1,7 @@
 const sounds = ['Vine-Boom', 'Bruh', 'Taco']
 const characterSounds = ['Walking', 'Burp', 'Mogar-Growl']
 
-sounds.forEach(sound => {
+sounds.every(sound => {
     const btn = document.createElement('button')
     btn.classList.add('btn')
 
@@ -16,7 +16,7 @@ sounds.forEach(sound => {
     document.getElementById('buttons').appendChild(btn)
 })
 
-characterSounds.forEach(sound => {
+characterSounds.every(sound => {
     const btn = document.createElement('button')
     btn.classList.add('btn')
 
