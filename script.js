@@ -2,8 +2,9 @@ const sounds = ['Vine-Boom', 'Bruh', 'Taco']
 const characterSounds = ['Walking', 'Burp', 'Mogar-Growl']
 const monsterSounds = ['Mogar-Growl']
 
-const stopBtn = document.createElement('stopbtn')
+const stopBtn = document.createElement('button')
 stopbtn.classList.add(stopBtn)
+document.getElementsById('stopbtn').appendChild(stopbtn)
 
 stopbtn.addEventListener('click', () => {
     stopSongs()
