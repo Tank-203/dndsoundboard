@@ -1,4 +1,4 @@
-const sounds = ['Vine-Boom', 'Bruh', 'Taco']
+const sounds = ['Vine-Boom', 'Bruh', 'Taco', 'Fart']
 const characterSounds = ['Walking', 'Burp']
 const monsterSounds = ['Mogar-Growl', 'Monster-Death']
 
