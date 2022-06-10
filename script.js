@@ -1,5 +1,5 @@
-const sounds = ['Vine-Boom', 'Bruh', 'Taco', 'Fart']
-const characterSounds = ['Walking', 'Burp']
+const sounds = ['Vine-Boom', 'Bruh', 'Taco']
+const characterSounds = ['Walking', 'Burp', 'Fart']
 const monsterSounds = ['Mogar-Growl', 'Monster-Death']
 
 sounds.forEach(sound => {
